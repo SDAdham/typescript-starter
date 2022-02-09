@@ -3,7 +3,7 @@ export class ControllerBaseBase {
 
     private helloWorld = 'Hello world!';
 
-  @Get()
+  @Get('helloworld')
   getHelloWorld(): string {
     return this.helloWorld;
   }
